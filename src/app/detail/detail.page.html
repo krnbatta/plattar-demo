@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{page.title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{page.cardTitle}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-card-subtitle>{{page.cardText}}</ion-card-subtitle>
+      <ion-button *ngIf="cardButtonPresent" expand="full" fill="solid" href="{{page.cardButton}}">
+        Button
+      </ion-button>
+      <ion-img *ngIf="cardImagePresent" width="80" height="80" src={{page.cardImage}}></ion-img>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

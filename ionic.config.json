@@ -1,5 +1,7 @@
 {
   "name": "plattar-demo",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

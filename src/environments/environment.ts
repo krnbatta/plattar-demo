@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  app_id: '9ed4c1ab-a467-42bc-8e31-e0f891fce5e2',
+  api_url: 'https://staging.plattar.space/api/v2'
 };
 
 /*
